@@ -38,6 +38,8 @@ async function init() {
     // Start the bot
     client.login(process.env.BOT_TOKEN);
 
+    require('./api');
+
 }
 
 init().catch(error => {

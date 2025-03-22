@@ -1,0 +1,26 @@
+{
+  "name": "codekeepers-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot for the CodeKeepers Discord Community to manage pull requests and releases",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vulps22/CodeKeepers-Discord-Bot.git"
+  },
+  "author": "Vulps22",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vulps22/CodeKeepers-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Vulps22/CodeKeepers-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0"
+  }
+}
